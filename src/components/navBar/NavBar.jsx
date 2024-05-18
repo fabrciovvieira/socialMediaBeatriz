@@ -36,7 +36,7 @@ const NavBar = ({ isDark, setIsDark }) => {
         </div>
         <div className={`menu ${isOpen ? 'open' : ''}`}>
           <div className="menu-item-mobile">
-                <Link to='/socialMediaBeatriz'>
+                <Link to='/'>
                   <h1 className='menu-item-mobile' onClick={toggleMenu}>BEATRIZ PEREIRA</h1>
                 </Link>
             </div>
@@ -44,7 +44,7 @@ const NavBar = ({ isDark, setIsDark }) => {
                 {/* <Link to='/aboutMe'>
                   <h1 className='item-menu' onClick={toggleMenu}>Sobre Mim</h1>
                 </Link> */}
-                <Link to='/socialMediaBeatriz/portfolio' onClick={toggleMenu}>
+                <Link to='/portfolio' onClick={toggleMenu}>
                   <h1 className='item-menu'>Portfólio</h1>
                 </Link>
             </div>
@@ -62,7 +62,7 @@ const NavBar = ({ isDark, setIsDark }) => {
         </div>
       </div>
         <div className="content-navbar">
-            <Link to='/socialMediaBeatriz'>
+            <Link to='/'>
               <h1 className='nameLogo'>BEATRIZ PEREIRA</h1>
             </Link>
         </div>
@@ -70,7 +70,7 @@ const NavBar = ({ isDark, setIsDark }) => {
             {/* <Link to='/aboutMe'>
               <h1 className='menu'>Sobre Mim</h1>
             </Link> */}
-            <Link to='/socialMediaBeatriz/portfolio'>
+            <Link to='/portfolio'>
               <h1 className='menu'>Portfólio</h1>
             </Link>
         </div>

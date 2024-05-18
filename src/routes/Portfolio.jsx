@@ -3,7 +3,7 @@ import './Portfolio.css';
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa6";
 import { MdOutlineMailOutline } from "react-icons/md";
-import foto from '../../public/tiz.jpg';
+import foto from '../../public/tiz.jpg'
 import alcance from '../../public/alcance.jpeg'
 import dark from '../../public/dark.jpg'
 import santaAna from '../../public/santaAna.png'
