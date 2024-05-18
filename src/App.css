@@ -1,0 +1,7 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--dark-bg-color);
+    transition: background-color 0.1s ease-in-out;
+}

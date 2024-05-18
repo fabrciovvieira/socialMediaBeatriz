@@ -1,0 +1,16 @@
+.toggle {
+    visibility: hidden;
+}
+
+.icon-toggle {
+    font-size: 20px;
+    margin-top: 5px;
+    fill: var(--dark-color-font-1);
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .icon-toggle {
+        font-size: 40px;
+    }
+}

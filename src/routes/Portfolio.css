@@ -1,0 +1,1306 @@
+.container-portfolio {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100%;
+  padding-bottom: 2rem;
+  width: 100%;
+  background-color: var(--dark-bg-color);
+}
+
+.headPortfolio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
+}
+
+.headPortfolio h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 9rem;
+  font-weight: lighter;
+  word-spacing: 20px;
+  color: var(--dark-color-font-1);
+}
+
+.headPortfolio p {
+  font-family: 'Poppins', sans-serif;
+  color: var(--dark-color-font-1);
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: -3rem;
+}
+
+.scroll-indicator {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 2rem;
+  margin-top: 3rem;
+  width: 100%;
+}
+.scroll-indicator p {
+    color: var(--dark-color-font-1);  
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+
+}
+
+.downArrow, .upArrow {
+  fill: var(--dark-color-font-1);
+  animation: bounce 2s linear infinite;
+  font-size: 4rem;
+  font-weight: 100;
+  size: 1rem;
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.description {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 5rem;
+}
+
+.headDescription h3 {
+    font-size: 9rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark-color-font-1);
+    font-weight: 300;
+}
+.headDescription p {
+    font-size: 3rem;
+    margin-top: -3rem;
+    margin-left: 2rem;
+    font-family: 'Shadows Into Light', sans-serif;    
+    color: var(--dark-color-font-1);
+}
+
+.imgPortfolio img {
+    width: 300px;
+    height: auto;
+    margin-top: -5rem;
+    margin-right: 6rem;
+    border-radius: 169px 169px 0px 0px;
+
+}
+
+
+.text-aboutMe {
+    margin-top: 2rem;
+    width: 500px;
+    margin-left: 2rem;
+}
+
+.text-aboutMe p {
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark-color-font-1);
+}
+
+.line {
+    background-color: var(--dark-color-font-1);
+    height: 3px;
+    width: 700px;
+    margin: 3rem auto;
+}
+
+
+.resultados {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.resultadosHead {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    text-align: center;
+    margin-right: 17rem;
+}
+
+.resultadosHead p {
+    font-family: 'Shadows Into Light', sans-serif;  
+    font-size: 4rem;
+    font-weight: lighter;
+    color: var(--dark-color-font-1);
+    text-align: center;
+}
+.resultadosHead h3 {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 6rem;
+    font-weight: lighter;
+    color: var(--dark-color-font-1);
+    margin-top: -2rem;
+}
+
+.imgResultado img {
+    width: 250px;
+    height: auto;
+    margin-top: -6rem;
+    margin-right: -10rem;
+}
+.cicle {
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+    border: 8px solid red;
+    position: relative;
+    margin-top: -5rem;
+    margin-left: -2rem;
+}
+
+.text-resultado {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    margin-left: 12rem;
+    margin-top: -8rem;
+}
+
+.text-resultado p {
+    font-size: 1.4rem;
+    color: var(--dark-color-font-1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10rem;
+    align-items: center;
+    background-color: var(--dark-bg-color);
+}
+
+.skills h2 {
+    color: var(--dark-color-font-1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 8rem;
+    margin-bottom: 3rem;
+}
+
+.all-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.all-skills p {
+    color: var(--dark-color-font-1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+.works {
+    display: flex;
+    margin-top: 4rem;
+}
+.divImg img {
+    width: 600px;
+    height: auto;
+}
+
+.headWorks {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.headWorks p {
+    font-family: 'Shadows Into Light', sans-serif;  
+    font-size: 4rem;
+    font-weight: lighter;
+    color: var(--dark-color-font-1);
+}
+.headWorks h3 {
+    font-family: 'Poppins', sans-serif;  
+    font-size: 6rem;
+    font-weight: lighter;
+    color: var(--dark-color-font-1);
+    text-align: center;
+    margin-top: -3rem;
+}
+
+.headWorks span {
+    font-family: 'Poppins', sans-serif;  
+    font-size: 1.4rem;
+    margin-top: -1rem;
+    font-weight: lighter;
+}
+
+.headWorks .downArrow {
+   margin-left: 10rem;
+}
+
+.santaAna, .eventos, .contato {
+    display: flex;
+    margin-top: 4rem;
+}
+.santaAna img {
+    width: 650px;
+    height: auto;
+    margin-left: 3rem;
+}
+
+.descSantaAna, .descAcai, .descEventos, .meusContatos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.descSantaAna h2,
+.descAcai h2,
+.descEventos h2 {
+    font-family: 'Poppins', sans-serif;  
+    font-size: 6rem;
+    font-weight: lighter;
+    color: var(--dark-color-font-1);
+    text-align: center;
+}
+
+.descSantaAna p,
+.descAcai p {
+    font-family: 'Poppins', sans-serif;  
+    font-size: 1.5rem;
+    width: 330px;
+    font-weight: 200;
+    color: var(--dark-color-font-1);
+}
+.descSantaAna span,
+.descAcai span {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 1rem;  
+    font-size: 1.2rem;
+    font-weight: 200;
+    text-align: center;
+    color: var(--dark-color-font-1);
+}
+.acai {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 4rem;
+}
+
+.acai img {
+    width: 650px;
+    height: auto;
+}
+
+.eventos video,
+.contato img {
+    width: 500px;
+    height: auto;
+    margin-left: 3rem;
+}
+
+.descEventos p {
+    font-family: 'Poppins', sans-serif;  
+    font-size: 1.5rem;
+    width: 700px;
+    font-weight: 200;
+    color: var(--dark-color-font-1);
+}
+
+.meusContatos h2 {
+    font-family: 'Poppins', sans-serif;  
+    font-size: 5rem;
+    font-weight: 200;
+    color: var(--dark-color-font-1);
+}
+
+.contato-link {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.contatoIcon {
+    font-size: 3rem;
+    fill: var(--dark-color-font-1);
+}
+
+.contato-link p {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark-color-font-1);  
+    font-weight: lighter;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.meusContatos h2 {
+    margin-bottom: 1rem;
+}
+
+.meusContatos {
+    gap: 1.3rem;
+}
+
+.aoTopo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -4rem;
+}
+
+.aoTopo span{
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark-color-font-1);  
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 1024px) {
+    .container-portfolio {
+        overflow: hidden;
+      }
+    .headPortfolio h1 {
+        font-size: 6rem;
+    }
+    .headPortfolio p {
+        margin-top: -1rem;
+    }
+    .description {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 40%;
+        margin-left: 1rem;
+    }
+    
+    .headDescription h3 {
+        font-size: 6rem;
+        font-family: 'Poppins', sans-serif;
+        color: var(--dark-color-font-1);
+        font-weight: 300;
+    }
+    .headDescription p {
+        font-size: 3rem;
+        margin-top: -3rem;
+        margin-left: 1rem;
+        font-family: 'Shadows Into Light', sans-serif;    
+        color: var(--dark-color-font-1);
+    }
+    
+    .imgPortfolio img {
+        width: 250px;
+        margin-top: -5rem;
+        margin-right: 2rem;
+    
+    }
+    
+    
+    .text-aboutMe {
+        margin-top: 1rem;
+        width: 400px;
+        margin-left: 1rem;
+    }
+    
+    .text-aboutMe p {
+        font-size: 0.9rem;
+    }
+    
+    .line {
+        width: 500px;
+    }
+
+    .resultados {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    
+    }
+    
+    .resultadosHead {
+        margin-right: 7rem;
+    }
+    
+    .resultadosHead p {
+        font-size: 3rem;
+    }
+    .resultadosHead h3 { 
+        font-size: 3rem;
+    }
+    
+    .text-resultado {
+        display: flex;
+        justify-content: center;
+        width: 700px;
+        text-align: center;
+        margin: auto;
+        margin-left: 12rem;
+        margin-top: -8rem;
+    }
+    
+    .text-resultado p {
+        font-size: 1rem;
+        margin-right: 26rem;
+        margin-left: -11rem;
+        margin-top: -4rem;
+    }
+
+
+    .skills {
+        margin-top: 12rem;
+    }
+
+    .skills h2 {
+        font-size: 5rem;
+    }
+
+    .all-skills {
+        gap: 1.8rem;
+    }
+
+    .all-skills p {
+        font-size: 1.7rem;
+    }
+    .divImg img {
+        width: 400px;
+    }
+
+    .headWorks p {
+        font-size: 3rem;
+    }
+    .headWorks h3 { 
+        font-size: 3rem;
+        margin-top: -1rem;
+    }
+
+
+    .santaAna, .eventos, .contato {
+        display: flex;
+        margin-top: 4rem;
+    }
+    .santaAna img {
+        width: 350px;
+    }
+
+    .descSantaAna, .descAcai, .descEventos, .meusContatos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 3rem;
+    }
+
+    .descSantaAna h2,
+    .descAcai h2,
+    .descEventos h2 {
+        font-size: 3rem;
+    }
+
+    .descSantaAna p,
+    .descAcai p {  
+        font-size: 1.1rem;
+        width: 300px;
+    }
+    .acai img {
+        width: 350px;
+        margin-right: -5rem;
+    }
+
+    .eventos video,
+    .contato img {
+        width: 300px;
+    }
+
+    .descEventos p {
+        font-size: 1rem;
+        width: 350px;
+    }
+
+
+    .meusContatos h2 {
+        font-size: 3rem;
+    }
+
+    .contato-link {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .contatoIcon {
+        font-size: 1.7rem;
+        fill: var(--dark-color-font-1);
+    }
+
+    .contato-link p {
+        text-align: left;
+        display: flex;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        color: var(--dark-color-font-1);  
+        font-weight: lighter;
+        font-size: 1.2rem;
+    }
+
+    .meusContatos h2 {
+        margin-bottom: 1rem;
+    }
+
+    .meusContatos {
+        gap: 1.3rem;
+    }
+
+
+    
+}
+@media (max-width: 500px) {
+    .headPortfolio h1 {
+        font-size: 3rem;
+    }
+    .headPortfolio p {
+        font-size: 1.5rem;
+
+    } 
+
+    .headDescription {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        width: 400px;
+    }
+    .headDescription h3 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    .headDescription p {
+        font-size: 1.8rem;
+        margin: auto;
+    }
+
+    .aboutMe {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    
+    .imgPortfolio img {
+        width: 250px;
+        display: flex;
+        justify-content: flex-end;
+        margin: 1rem auto; 
+    }
+    
+    .cicle {
+        width: 200px;
+        height: 100px;
+        border-radius: 50%;
+        border: 8px solid red;
+        position: relative;
+        margin-top: -5.5rem;
+        margin-left: 4rem;
+    }
+
+    .text-aboutMe {
+        margin-top: 1rem;
+        width: 400px;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    
+    .text-aboutMe p {
+        font-size: 0.9rem;
+    }
+    
+    .line {
+        width: 300px;
+    }
+
+    .resultados {
+        flex-direction: column;
+        margin-top: -5rem;
+    }
+    
+    .imgResultado img {
+        width: 250px;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+        margin: 1rem auto;
+    }
+    .resultadosHead {
+        margin: auto;
+    }
+    
+    .resultadosHead p {
+        font-size: 3rem;
+    }
+    .resultadosHead h3 { 
+        font-size: 3rem;
+    }
+    
+    .text-resultado {
+        display: flex;
+        justify-content: flex-end;
+        width: 400px;
+        height: 100px;
+        text-align: center;
+        margin: 1rem auto;
+    }
+    
+    .text-resultado p {
+        font-size: 1rem;
+        margin: auto;
+    }
+
+
+    .skills {
+        margin-top: 7rem;
+    }
+
+    .skills h2 {
+        font-size: 3rem;
+    }
+
+    .all-skills {
+        gap: 1.5rem;
+    }
+
+    .all-skills p {
+        font-size: 1.3rem;
+    }
+
+    .works {
+        flex-direction: column;
+        text-align: center;
+    }
+    .divImg img {
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .headWorks {
+        margin: auto;
+    }
+
+    .headWorks p {
+        font-size: 2.6rem;
+    }
+    .headWorks span {
+        font-size: 0.7rem;
+        margin-top: 1rem;
+    }
+    .headWorks h3 { 
+        font-size: 1.5rem;
+        margin-top: -0.7rem;
+    }
+    .headWorks .downArrow {
+        margin: auto;
+        font-size: 1.9rem;
+     }
+
+    .santaAna, .eventos, .contato {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        text-align: center;
+    }
+    .santaAna img {
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .descSantaAna, .descAcai, .descEventos, .meusContatos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .descSantaAna h2,
+    .descEventos h2 {
+        font-size: 3rem;
+    }
+    .descSantaAna p,
+    .descAcai p {  
+        font-size: 1.1rem;
+        width: 400px;
+        text-align: center;
+
+    }
+
+    .acai {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+    .acai img {
+        width: 300px;
+        display: flex;
+        justify-content: flex-end;
+        margin: auto -4rem auto auto;
+    }
+
+    .eventos video,
+    .contato img {
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .descEventos p {
+        font-size: 1rem;
+        width: 300px;
+    }
+
+
+    .meusContatos h2 {
+        font-size: 2rem;
+    }
+
+    .contato-link {
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .contatoIcon {
+        font-size: 1.5rem;
+        fill: var(--dark-color-font-1);
+    }
+
+    .contato-link p {
+        text-align: left;
+        display: flex;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        color: var(--dark-color-font-1);  
+        font-weight: lighter;
+        font-size: 1.2rem;
+    }
+
+    .meusContatos h2 {
+        margin-bottom: 1rem;
+    }
+
+    .meusContatos {
+        gap: 1.3rem;
+    }
+
+
+    
+}
+@media (max-width: 430px) {
+    .headPortfolio h1 {
+        font-size: 2.9rem;
+    }
+    .headPortfolio p {
+        font-size: 1.4rem;
+
+    } 
+    .description {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+
+    .headDescription {
+        width: 390px;
+    }
+    .headDescription h3 {
+        font-size: 2.8rem;
+    }
+    .headDescription p {
+        font-size: 1.7rem;
+    }
+    
+    
+    .imgPortfolio img {
+        width: 230px;
+        display: flex;
+        justify-content: flex-end;
+        margin: 1rem auto; 
+    }
+    
+    .cicle {
+        width: 200px;
+        height: 100px;
+        border-radius: 50%;
+        border: 8px solid red;
+        position: relative;
+        margin-top: -5.5rem;
+        margin-left: 4rem;
+    }
+
+    .text-aboutMe {
+        margin-top: 1rem;
+        width: 400px;
+        margin-left: 0rem;
+        text-align: center;
+    }
+    
+    .text-aboutMe p {
+        font-size: 0.9rem;
+    }
+    
+    .line {
+        width: 300px;
+    }
+
+    .resultados {
+        flex-direction: column;
+        margin-top: -5rem;
+    }
+    
+    .imgResultado img {
+        width: 250px;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+        margin: 1rem auto;
+    }
+    .resultadosHead {
+        margin: auto;
+    }
+    
+    .resultadosHead p {
+        font-size: 3rem;
+    }
+    .resultadosHead h3 { 
+        font-size: 3rem;
+    }
+    
+    .text-resultado {
+        display: flex;
+        justify-content: flex-end;
+        width: 400px;
+        height: 100px;
+        text-align: center;
+        margin: 1rem auto;
+    }
+    
+    .text-resultado p {
+        font-size: 1rem;
+        margin: auto;
+    }
+
+
+    .skills {
+        margin-top: 7rem;
+    }
+
+    .skills h2 {
+        font-size: 3rem;
+    }
+
+    .all-skills {
+        gap: 1.5rem;
+    }
+
+    .all-skills p {
+        font-size: 1.3rem;
+    }
+
+    .works {
+        flex-direction: column;
+        text-align: center;
+    }
+    .divImg img {
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .headWorks {
+        margin: auto;
+    }
+
+    .headWorks p {
+        font-size: 2.6rem;
+    }
+    .headWorks span {
+        font-size: 0.7rem;
+        margin-top: 1rem;
+    }
+    .headWorks h3 { 
+        font-size: 1.5rem;
+        margin-top: -0.7rem;
+    }
+    .headWorks .downArrow {
+        margin: auto;
+        font-size: 1.9rem;
+     }
+
+    .santaAna, .eventos, .contato {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        text-align: center;
+    }
+    .santaAna img {
+        width: 300px;
+    }
+
+    .descSantaAna, .descAcai, .descEventos, .meusContatos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .descSantaAna h2,
+    .descEventos h2 {
+        font-size: 3rem;
+    }
+    .descSantaAna p,
+    .descAcai p {  
+        font-size: 1.1rem;
+        width: 400px;
+        text-align: center;
+
+    }
+
+    .acai {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+    .acai img {
+        width: 300px;
+        display: flex;
+        justify-content: flex-end;
+        margin: auto -4rem auto auto;
+    }
+
+    .eventos video,
+    .contato img {
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .descEventos p {
+        font-size: 1rem;
+        width: 300px;
+    }
+
+
+    .meusContatos h2 {
+        font-size: 2rem;
+    }
+
+    .contato-link {
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+        margin: auto;
+        cursor: pointer;
+    }
+
+    .contatoIcon {
+        font-size: 1.5rem;
+        fill: var(--dark-color-font-1);
+    }
+
+    .contato-link p {
+        text-align: left;
+        display: flex;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        color: var(--dark-color-font-1);  
+        font-weight: lighter;
+        font-size: 1.2rem;
+    }
+
+    .meusContatos h2 {
+        margin-bottom: 1rem;
+    }
+
+    .meusContatos {
+        gap: 1.3rem;
+    }
+
+
+    
+}
+@media (max-width: 390px) {
+    .headPortfolio h1 {
+        font-size: 2rem;
+    }
+    .headPortfolio p {
+        font-size: 1.2rem;
+
+    } 
+    .description {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+
+    .headDescription {
+        width: 350px;
+    }
+    .headDescription h3 {
+        font-size: 2.3rem;
+    }
+    .headDescription p {
+        font-size: 1.3rem;
+    }
+    
+    
+    .imgPortfolio img {
+        width: 230px;
+        display: flex;
+        justify-content: flex-end;
+        margin: 1rem auto; 
+    }
+    
+    .cicle {
+        width: 200px;
+        height: 100px;
+        border-radius: 50%;
+        border: 8px solid red;
+        position: relative;
+        margin-top: -5.5rem;
+        margin-left: 4rem;
+    }
+
+    .text-aboutMe {
+        width: 300px;
+        margin: 2rem auto;
+        text-align: center;
+    }
+    
+    .text-aboutMe p {
+        font-size: 0.9rem;
+
+    }
+    
+    .line {
+        width: 300px;
+    }
+
+    .resultados {
+        flex-direction: column;
+        margin-top: -5rem;
+    }
+    
+    .imgResultado img {
+        width: 250px;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+        margin: 1rem auto;
+    }
+    .resultadosHead {
+        margin: auto;
+    }
+    
+    .resultadosHead p {
+        font-size: 2.7rem;
+    }
+    .resultadosHead h3 { 
+        font-size: 2.8rem;
+    }
+    
+    .text-resultado {
+        width: 300px;
+    }
+    
+    .text-resultado p {
+        font-size: 1rem;
+        margin: auto;
+    }
+
+
+    .skills {
+        margin-top: 7rem;
+    }
+
+    .skills h2 {
+        font-size: 2rem;
+    }
+
+    .all-skills {
+        gap: 1.5rem;
+        width: 300px;
+    }
+
+    .all-skills p {
+        font-size: 1rem;
+    }
+
+    .works {
+        flex-direction: column;
+        text-align: center;
+    }
+    .divImg img {
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .headWorks {
+        margin: auto;
+    }
+
+    .headWorks p {
+        font-size: 2.6rem;
+    }
+    .headWorks span {
+        font-size: 0.7rem;
+        margin-top: 1rem;
+    }
+    .headWorks h3 { 
+        font-size: 1.5rem;
+        margin-top: -0.7rem;
+    }
+    .headWorks .downArrow {
+        margin: auto;
+        font-size: 1.9rem;
+     }
+
+    .santaAna, .eventos, .contato {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem;
+        text-align: center;
+    }
+    .santaAna img {
+        width: 270px;
+    }
+
+    .descSantaAna, .descAcai, .descEventos, .meusContatos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .descSantaAna h2,
+    .descEventos h2 {
+        font-size: 3rem;
+    }
+    .descSantaAna p,
+    .descAcai p {  
+        font-size: 1.1rem;
+        width: 300px;
+        text-align: center;
+
+    }
+
+    .acai {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+    .acai img {
+        width: 300px;
+        display: flex;
+        justify-content: flex-end;
+        margin: auto -4rem auto auto;
+    }
+
+    .eventos video,
+    .contato img {
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .descEventos p {
+        font-size: 1rem;
+        width: 300px;
+    }
+
+
+    .meusContatos h2 {
+        font-size: 2rem;
+    }
+
+    .contato-link {
+        display: flex;
+        gap: 0.5rem;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .contatoIcon {
+        font-size: 1.5rem;
+        fill: var(--dark-color-font-1);
+    }
+
+    .contato-link p {
+        text-align: left;
+        display: flex;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        color: var(--dark-color-font-1);  
+        font-weight: lighter;
+        font-size: 1.2rem;
+    }
+
+    .meusContatos h2 {
+        margin-bottom: 1rem;
+    }
+
+    .meusContatos {
+        gap: 1.3rem;
+    }
+
+
+    
+}
