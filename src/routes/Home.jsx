@@ -84,15 +84,11 @@ const Home = () => {
             <p>Destaque-se no Instagram com táticas inteligentes</p>
         </div>
       </div>
-        {/* <div className="clients">
-            <img src={cliente1} alt="" />
-            <img src={cliente1} alt="" />
-            <img src={cliente1} alt="" />
-            <img src={cliente1} alt="" />
-            <img src={cliente1} alt="" />
-            <img src={cliente1} alt="" />
-            <img src={cliente1} alt="" />
-        </div> */}
+        <div className="clients">
+            <h1>+200K VIZUALIZAÇÕES</h1>
+            <h1>+100K SEGUIDORES</h1>
+            <h1>+10 CLIENTES</h1>
+        </div>
     </div>
   );
 };

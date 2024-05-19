@@ -59,6 +59,11 @@ const NavBar = ({ isDark, setIsDark }) => {
                 <MdOutlineMailOutline onClick={handleEmailClick} className='icon'/>
                 <Toggle className='icon' isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
             </div>
+            <div className="devCreator">
+              <a href="https://www.instagram.com/fabrciovvieira?igsh=MXRldnN3dWRpemRpMA%3D%3D&utm_source=qr" target='_blank'>
+                <h3>Desenvolvido por Fabrício Vieira</h3>
+              </a>
+            </div>
         </div>
       </div>
         <div className="content-navbar">

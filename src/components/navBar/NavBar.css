@@ -165,3 +165,14 @@
     }
 
 }
+
+
+.devCreator {
+    text-align: center;
+    margin: 20rem auto;
+}
+.devCreator h3 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--dark-color-font-1);
+    
+}

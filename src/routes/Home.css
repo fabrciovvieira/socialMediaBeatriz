@@ -184,19 +184,23 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 3rem;
-    width: 80%;
-    margin: -20rem auto auto auto;
+    width:60%;
+    margin: -26rem auto auto auto;
     align-items: center;
     overflow: hidden; 
     position: relative;
+    gap: 3rem;
 }
 
-.clients img {
-    width: 100px;
-    height: auto;
+.clients h1 {
     position: relative; 
     animation: moveLogo 15s  linear infinite; 
     left: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark-color-font-1); 
+    font-size: 2rem;
+    font-weight: lighter;
+    text-align: center;
 }
 
   @keyframes moveLogo {
@@ -291,11 +295,17 @@
     .clients {
         margin: -15rem auto auto auto;
     }
-
-    .clients img {
-        width: 70px;
-        height: auto;
+    .clients h1 {
+        position: relative; 
+        animation: moveLogo 6s  linear infinite; 
+        left: 100%;
+        font-family: 'Poppins', sans-serif;
+        color: var(--dark-color-font-1); 
+        font-size: 1.2rem;
+        font-weight: lighter;
+        text-align: center;
     }
+
 }
 @media (max-width: 500px) {
       
@@ -342,8 +352,19 @@
     .clients {
         gap: 2rem;
         margin: -20rem auto auto;
+        width: 90%;
     }
 
+    .clients h1 {
+        position: relative; 
+        animation: moveLogo 4s  linear infinite; 
+        left: 100%;
+        font-family: 'Poppins', sans-serif;
+        color: var(--dark-color-font-1); 
+        font-size: 1.2rem;
+        font-weight: lighter;
+        text-align: center;
+    }
     .clients img {
         width: 60px;
         height: auto;
