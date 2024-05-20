@@ -55,7 +55,6 @@ const NavBar = ({ isDark, setIsDark }) => {
                 <a href={whatsappLink} target='_blank'>
                   <FaWhatsapp className='icon'/>
                 </a>
-                <FaTiktok className='icon'/>
                 <MdOutlineMailOutline onClick={handleEmailClick} className='icon'/>
                 <Toggle className='icon' isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
             </div>
@@ -86,7 +85,6 @@ const NavBar = ({ isDark, setIsDark }) => {
             <a href={whatsappLink} target='_blank'>
                   <FaWhatsapp className='icon'/>
             </a>
-            <FaTiktok className='icon'/>
             <MdOutlineMailOutline onClick={handleEmailClick} className='icon'/>
             <Toggle className='icon' isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
         </div>

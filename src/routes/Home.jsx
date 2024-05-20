@@ -71,7 +71,6 @@ const Home = () => {
         <a href={whatsappLink} target='_blank'>
           <FaWhatsapp className='homeIcons'/>
         </a>
-        <FaTiktok className='homeIcons'/>
         <MdOutlineMailOutline onClick={handleEmailClick} className='homeIcons'/>
       </div>
       <div className="container-inclinado">
