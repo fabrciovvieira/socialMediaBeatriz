@@ -25,7 +25,7 @@ const Home = () => {
       ]);
 
     
-    }, 3000); // Alterado para 4 segundos para incluir 1 segundo de pausa
+    }, 3000); 
 
     return () => clearInterval(interval);
   }, []);
@@ -84,11 +84,11 @@ const Home = () => {
             <p>Destaque-se no Instagram com táticas inteligentes</p>
         </div>
       </div>
-        <div className="clients">
+        {/* <div className="clients">
             <h1>+200K VIZUALIZAÇÕES</h1>
-            <h1>+100K SEGUIDORES</h1>
-            <h1>+10 CLIENTES</h1>
-        </div>
+            <h1>+20K SEGUIDORES</h1>
+            <h1>+4 CLIENTES</h1>
+        </div> */}
     </div>
   );
 };
